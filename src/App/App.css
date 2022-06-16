@@ -1,0 +1,109 @@
+section.container {
+    width: 100%;
+}
+
+section.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ee7f91;
+    padding: 10px 2rem;
+    color: #3b3939;
+    box-shadow: 0 2px 10px 1px #3b3939ad;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1999;
+}
+
+section.container .user_data {
+    display: flex;
+    align-items: center;
+}
+
+section.container .user_data img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 5px;
+    border: 3px solid #e9dbdbc2;
+}
+
+section.container #main {
+    height: 92vh;
+    display: flex;
+    justify-content: left;
+}
+
+section.container #main aside {
+    background: #ee7f91;
+    padding: 2rem 0;    
+}
+
+section.container #main .cards {
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.form_add {
+    padding: 0 2rem;
+}
+
+.form_add .form_group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    position: relative;
+
+}
+
+.form_add .form_group input,
+.form_add .form_group textarea {
+    background: #fff;
+    padding: 5px .5rem;
+    border: none;
+    border-bottom: 2px solid #3b3939;
+    border-radius: 5px;
+
+}
+
+span.error {
+    background: rgba(255, 0, 0, 0.479);
+    color: #fff;
+
+    padding: 2px 1rem;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+
+    border-radius: 5px;
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.form_add .form_group input:focus,
+.form_add .form_group textarea:focus {
+    outline: none;
+}
+
+.form_add button {
+    width: 100%;
+    padding: .5rem;
+    background: #3b3939;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.form_add button:hover {
+   background: #4e4c4c;
+   cursor: pointer;
+}
+
+
